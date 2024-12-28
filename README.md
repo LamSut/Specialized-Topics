@@ -1,7 +1,7 @@
 # IaaS Automation
 
 Automated AWS infrastructure provisioning using Terraform with GitHub Actions:  
-* AWS services: IAM, EC2, S3, DynamoDB,...
+* AWS services: IAM, EC2, VPC, S3, DynamoDB,...
 * Terraform configuration for AWS Free Tier resources
 * GitHub Actions for automated Build, Test, Review and Deploy
 
