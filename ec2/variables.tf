@@ -6,7 +6,7 @@ variable "subnet2" {}
 
 variable "key_name" {
   type    = string
-  default = "lamsutdeptraivcl"
+  default = "b2111933-pair"
 }
 
 variable "ami_free_amazon" {
