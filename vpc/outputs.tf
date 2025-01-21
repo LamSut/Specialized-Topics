@@ -15,11 +15,11 @@ output "security_group" {
 //for unit testing vpc
 
 output "enable_dns_hostnames" {
-  value = aws_vpc.my_vpc.enable_dns_hostnames
+  value = aws_vpc.b2111933_vpc.enable_dns_hostnames
 }
 
 output "enable_dns_support" {
-  value = aws_vpc.my_vpc.enable_dns_support
+  value = aws_vpc.b2111933_vpc.enable_dns_support
 }
 
 // for unit testing subnets
@@ -29,7 +29,7 @@ output "map_public_ip_on_launch" {
 }
 
 output "vpc_sm" {
-  value = tonumber(split("/", aws_vpc.my_vpc.cidr_block)[1])
+  value = tonumber(split("/", aws_vpc.b2111933_vpc.cidr_block)[1])
 }
 
 output "subnet1_sm" {
@@ -44,17 +44,17 @@ output "subnet2_sm" {
 
 //vpc id
 output "vpc_id" {
-  value = aws_vpc.my_vpc.id
+  value = aws_vpc.b2111933_vpc.id
 }
 
 //gateway id
 output "gw" {
-  value = aws_internet_gateway.my_vpc_igw.id
+  value = aws_internet_gateway.b2111933_vpc_igw.id
 }
 
 //gateway attach to vpc
 output "gw_vpc_id" {
-  value = aws_internet_gateway.my_vpc_igw.vpc_id
+  value = aws_internet_gateway.b2111933_vpc_igw.vpc_id
 }
 
 //subnet1 vpc id
