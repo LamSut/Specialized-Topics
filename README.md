@@ -10,5 +10,9 @@ You can review the GitLab CI/CD version of this project: [IaaS Automation](https
 Refer to this document for additional details: [B2111933 - Specialized Topics](https://github.com/LamSut/IaaS-Automation/blob/main/B2111933%20-%20Specialized%20Topics.pdf)
 
 ---
-![Concept](https://github.com/user-attachments/assets/bfd1c6de-ddfb-404f-b4c3-5f3211f1c73e)
+![image](https://github.com/user-attachments/assets/2c857218-37ee-4686-a0cf-7d430b3bd077)
 ---
+
+
+
+
