@@ -70,7 +70,7 @@ jobs:
         run: terraform plan -out=planfile
 
       - name: Upload Planfile as Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: terraform-planfile
           path: planfile
